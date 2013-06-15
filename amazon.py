@@ -19,6 +19,9 @@ if __name__ == "__main__":
   if not m3us:
     sys.exit("no m3us")
     
+    
+  print 'Found %s samples' % len(m3us)
+  
   for i, m3u in enumerate(m3us):
     link_m3u = 'http://www.amazon.com'+m3u
 
